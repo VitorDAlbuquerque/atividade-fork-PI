@@ -66,40 +66,7 @@ export function PageSettings() {
                         <h3 className="font-semibold text-2xl text-contrastWhite">FAQ</h3>
                         
                     </div>
-                    <div >
-                        <Accordion type="single"  collapsible>
-                            <AccordionItem value="item-1">
-                                <AccordionTrigger className="text-2xl font-semibold">Como funciona a busca por leilões de imóveis?</AccordionTrigger>
-                                <AccordionContent className="text-xl">
-                                Nosso motor de busca reúne leilões de imóveis de diversos bancos e instituições financeiras, permitindo que você encontre oportunidades rapidamente. Basta inserir uma localização, faixa de preço ou tipo de imóvel e aplicar os filtros desejados para visualizar os leilões disponíveis.
-                                </AccordionContent>
-                            </AccordionItem>
-                            <AccordionItem value="item-2">
-                                <AccordionTrigger className="text-2xl font-semibold">Os imóveis listados estão atualizados em tempo real?</AccordionTrigger>
-                                <AccordionContent className="text-xl">
-                                Sim, atualizamos os dados periodicamente para garantir que você tenha acesso às informações mais recentes sobre os leilões. No entanto, recomendamos sempre confirmar os detalhes diretamente no site oficial do leiloeiro antes de tomar qualquer decisão.
-                                </AccordionContent>
-                            </AccordionItem>
-                            <AccordionItem value="item-3">
-                                <AccordionTrigger className="text-2xl font-semibold">O que significa "salvar em grupos" e como uso essa função?</AccordionTrigger>
-                                <AccordionContent className="text-xl">
-                                Você pode salvar os leilões de seu interesse em pastas personalizadas, facilitando a organização e o acompanhamento dos imóveis que deseja monitorar. Basta clicar no ícone de salvar ao lado do leilão e escolher ou criar uma pasta.
-                                </AccordionContent>
-                            </AccordionItem>
-                            <AccordionItem value="item-4">
-                                <AccordionTrigger className="text-2xl font-semibold">Posso participar dos leilões diretamente pelo site?</AccordionTrigger>
-                                <AccordionContent className="text-xl">
-                                Não. Nosso site é um agregador de informações. Para participar de um leilão, você será redirecionado para o site oficial do leiloeiro responsável, onde poderá se cadastrar e fazer lances conforme as regras da instituição.
-                                </AccordionContent>
-                            </AccordionItem>
-                            <AccordionItem value="item-5">
-                                <AccordionTrigger className="text-2xl font-semibold">Como sei se um imóvel está ocupado ou desocupado?</AccordionTrigger>
-                                <AccordionContent className="text-xl">
-                                Essa informação geralmente é fornecida no edital do leilão, disponível no site do leiloeiro. Recomendamos sempre ler o edital completo antes de tomar qualquer decisão, pois ele contém detalhes importantes como ocupação, débitos e condições de pagamento.
-                                </AccordionContent>
-                            </AccordionItem>
-                        </Accordion>
-                    </div>
+                    
                 </div>
             </div>
         </div>
